@@ -14,4 +14,14 @@ greeting = 'Despair, has its calms' ;
     greeting = 'Let them eat cake' ;
 }
 
-document.write('<h3>' + greeting + '</h3>');
+
+function askUserName(){
+     let userName = prompt('Enter Username');
+
+if (userName == 'Doomfist'){
+    document.write('Welcome Leader ' + userName);
+}else{ 
+    document.write('Welcome Team Memeber' + userName);
+}
+    
+}
