@@ -23,5 +23,6 @@ if (userName == 'Doomfist'){
 }else{ 
     document.write('Welcome Team Memeber' + userName);
 }
-    
+
 }
+document.write('<h3>' + greeting + '</h3>');
