@@ -30,5 +30,23 @@ if (userName == 'Doomfist'){
 }
 
 
+function joinTalon(){
+    let choice = prompt('do you want clones of Sombra or Reaper on your team?');
+    let pic;
+    while (choice !='Sombra' && choice !='Reaper'){
+        choice = prompt ('Please be specific')
+    }
+    
+
+
+    
+
+   
+//     // 'how many times will you play Sombra?';
+// }else {
+//     alert('¡Apagando las luces')
+}
+
+// joinTalon();
 // askUserName();
 // timeGreeting();
