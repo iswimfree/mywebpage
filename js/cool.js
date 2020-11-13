@@ -36,6 +36,16 @@ function joinTalon(){
     while (choice !='Sombra' && choice !='Reaper'){
         choice = prompt ('Please be specific')
     }
+if (choice == 'Sombra'){
+    pic = '<img src="https://images-na.ssl-images-amazon.com/images/I/71J3l7MRTmL._AC_SX466_.jpg">'
+} else if (choice == 'Reaper'){
+pic ='<img =src"https://cdn1.dotesports.com/wp-content/uploads/2018/08/11165748/2d999bde-e46e-4e2f-bf8e-19a73a5d5e96.jpg">'
+}
+
+return pic;
+}
+
+
     
 
 
@@ -45,7 +55,7 @@ function joinTalon(){
 //     // 'how many times will you play Sombra?';
 // }else {
 //     alert('¡Apagando las luces')
-}
+
 
 // joinTalon();
 // askUserName();
